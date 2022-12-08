@@ -1,0 +1,13 @@
+.StudentDash {
+ width: 50%;
+ height: 40vh;
+ background-color: rgb(249, 241, 241);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+input {
+ width: 70vh;
+ height: 30%;
+}

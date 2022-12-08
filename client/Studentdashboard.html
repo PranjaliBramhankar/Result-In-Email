@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/studentdashboardstyle.css">
+</head>
+
+<body>
+
+    <div class="StudentDash">
+        <form method="post" name="studentDetails" onsubmit="update(event)">
+            <h2>Student Dashboard</h2>
+            <input name="name" type="text" class="input-box" placeholder="Name" required><br>
+            <input readonly name="enrollmentID" type="text" class="input-box" placeholder="Enrollment Number" required><br>
+            <input name="email" type="email" class="input-box" placeholder="Email" required><br>
+            <input name="password" type="password" class="input-box" placeholder="Password" required><br>
+            <input name="semester" type="text" class="input-box" placeholder="Semester" required><br>
+            <input name="year" type="text" class="input-box" placeholder="Year" required><br>
+            <button type="submit" class="submit-btn">Update</button><br>
+        </form>
+    </div>
+
+    <script src="./scripts/dashboardData.js"></script>
+</body>
+
+</html>

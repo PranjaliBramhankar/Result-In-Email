@@ -1,0 +1,21 @@
+.table-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+table{
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td:nth-child(2){
+    color: red;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+    border: black 2px solid;
+}
